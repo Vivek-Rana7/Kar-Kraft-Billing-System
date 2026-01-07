@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automobile Garage Billing Invoice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="invoice-container">
+        <!-- Header -->
+        <header class="header">
+            <h1>KAR KRAFT</h1>
+            <h2>Maruti Auto Service</h2>
+            <p>Address: 123 Main Street, City, State, PIN 123456</p>
+            <p>Phone: +91-9876543210</p>
+            <p>GSTIN: 22AAAAA0000A1Z5</p>
+        </header>
+
+        <!-- Invoice Details -->
+        <section class="invoice-details">
+            <div class="details-left">
+                <h3>Customer Details</h3>
+                <p><strong>Customer Name:</strong> [Customer Name]</p>
+                <p><strong>Address:</strong> [Customer Address]</p>
+                <p><strong>GSTIN:</strong> [Customer GSTIN]</p>
+                <p><strong>State Code:</strong> [State Code]</p>
+            </div>
+            <div class="details-right">
+                <h3>Invoice Details</h3>
+                <p><strong>Invoice Number:</strong> [Invoice Number]</p>
+                <p><strong>Invoice Date:</strong> [Invoice Date]</p>
+                <p><strong>Vehicle Number:</strong> [Vehicle Number]</p>
+                <p><strong>State:</strong> [State]</p>
+            </div>
+        </section>
+
+        <!-- Parts Section -->
+        <section class="parts-section">
+            <h3>Parts Section</h3>
+            <table class="parts-table">
+                <thead>
+                    <tr>
+                        <th>Sl No</th>
+                        <th>Part Description</th>
+                        <th>Qty</th>
+                        <th>Rate</th>
+                        <th>Tax (18%)</th>
+                        <th>Total Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>[Part Description 1]</td>
+                        <td>[Qty 1]</td>
+                        <td>[Rate 1]</td>
+                        <td>[Tax 1]</td>
+                        <td>[Total 1]</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>[Part Description 2]</td>
+                        <td>[Qty 2]</td>
+                        <td>[Rate 2]</td>
+                        <td>[Tax 2]</td>
+                        <td>[Total 2]</td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Labour Charges -->
+        <section class="labour-section">
+            <h3>Labour Charges</h3>
+            <table class="labour-table">
+                <thead>
+                    <tr>
+                        <th>Sl No</th>
+                        <th>Description</th>
+                        <th>Rate</th>
+                        <th>Tax</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>[Labour Description 1]</td>
+                        <td>[Rate 1]</td>
+                        <td>[Tax 1]</td>
+                        <td>[Total 1]</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>[Labour Description 2]</td>
+                        <td>[Rate 2]</td>
+                        <td>[Tax 2]</td>
+                        <td>[Total 2]</td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Summary Box -->
+        <section class="summary-box">
+            <h3>Summary</h3>
+            <p><strong>Parts Total:</strong> [Parts Total]</p>
+            <p><strong>Labour Total:</strong> [Labour Total]</p>
+            <p><strong>GST Parts:</strong> [GST Parts]</p>
+            <p><strong>GST Labour:</strong> [GST Labour]</p>
+            <p><strong>Grand Total:</strong> [Grand Total]</p>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p><strong>Amount in Words:</strong> [Amount in Words]</p>
+            <div class="signatures">
+                <div class="signature">
+                    <p>Customer Signature</p>
+                    <div class="signature-line"></div>
+                </div>
+                <div class="signature">
+                    <p>Authorized Signature</p>
+                    <div class="signature-line"></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
